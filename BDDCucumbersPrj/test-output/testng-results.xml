@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-29T15:50:51 IST" name="Default suite" finished-at="2024-10-29T15:51:37 IST" duration-ms="45559">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFile.TestNgRunnerClass@8519cb4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-29T15:50:51 IST" name="Default test" finished-at="2024-10-29T15:51:37 IST" duration-ms="45559">
+      <class name="runnerFile.TestNgRunnerClass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runnerFile.TestNgRunnerClass@8519cb4]" started-at="2024-10-29T15:50:51 IST" name="setUpClass" finished-at="2024-10-29T15:50:52 IST" duration-ms="1140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@670b3ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFile.TestNgRunnerClass@8519cb4]" started-at="2024-10-29T15:50:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-29T15:51:01 IST" duration-ms="8504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login into vtiger application with valid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login To Vtiger Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFile.TestNgRunnerClass@8519cb4]" started-at="2024-10-29T15:51:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-29T15:51:07 IST" duration-ms="6278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login into vtiger application with invalid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login To Vtiger Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFile.TestNgRunnerClass@8519cb4]" started-at="2024-10-29T15:51:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-29T15:51:17 IST" duration-ms="9853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to vtiger"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login To Vtiger Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFile.TestNgRunnerClass@8519cb4]" started-at="2024-10-29T15:51:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-29T15:51:28 IST" duration-ms="10964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to vtiger"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login To Vtiger Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFile.TestNgRunnerClass@8519cb4]" started-at="2024-10-29T15:51:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-29T15:51:37 IST" duration-ms="8584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login into vtiger application with valid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login To Vtiger Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerFile.TestNgRunnerClass@8519cb4]" started-at="2024-10-29T15:51:37 IST" name="tearDownClass" finished-at="2024-10-29T15:51:37 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerFile.TestNgRunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
